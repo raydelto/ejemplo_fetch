@@ -1,0 +1,16 @@
+.fila{
+    display: flex;
+}
+
+.columna{
+    width: 100%;
+    padding: 20px;
+}
+
+.contenedor{
+
+}
+
+.editor{
+    background: gray;
+}

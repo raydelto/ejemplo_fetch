@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="js/index.js"></script>
+    </head>
+    <body onload="obtenerDatos()">
+        <div class="contenedor">
+            Hola <span id="nombre"></span>
+
+            <div class="editor">
+                <div class="fila">
+                    <div class="columna">
+                        Nombre
+                    </div>
+                    <div class="columna">
+                            <input type="text" id="txtNombre" />
+                     </div>
+                </div>
+                <div class="fila">
+                        <div class="columna">
+                            Apellido
+                        </div>
+                        <div class="columna">
+                                <input type="text" id="txtApellido" />
+                         </div>
+                </div>
+                <div class="fila">
+                        <div class="columna">
+                            Telefono
+                        </div>
+                        <div class="columna">
+                                <input type="text" id="txtTelefono" />
+                         </div>
+                </div>
+                <div id="estado"></div>
+                <button onclick="guardar()">Guardar</button>
+            </div>
+        </div>
+    </body>
+</html>
